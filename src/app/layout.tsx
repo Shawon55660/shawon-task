@@ -23,13 +23,13 @@ export default function RootLayout({
        <link rel="stylesheet" href="https://fonts.cdnfonts.com/css/sporting-grotesque" />
       </head>
       <body
-        className={`font antialiased`}
+      style={{ fontFamily: 'Sporting Grotesque, sans-serif' }}
       >
-        <div className="max-w-[1440px] mx-auto">
-          <div style={{ fontFamily: 'Sporting Grotesque, sans-serif' }}>
+        <div className="max-w-[1440px] h-[888px] bg-[url('/bannar.png')] bg-center bg-cover mx-auto">
+          <div>
         <Navbar></Navbar>
         </div>
-        {children}
+       <div> {children}</div>
         </div>
       </body>
     </html>

@@ -9,7 +9,7 @@ const Navbar = () => {
     const menu:string[] =['Home','About', 'Profile', 'Blog']
     return (
         <div>
-           <div className="navbar bg-[#00000003] rounded-b-[30px] max-w-[1410px] mx-auto h-[114px]">
+           <div className="navbar items-center bg-[#00000003] rounded-b-[30px] max-w-[1410px] mx-auto h-[114px]">
   <div className="navbar-start w-[20%] ">
     <div className="dropdown">
       <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
