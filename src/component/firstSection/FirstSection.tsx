@@ -2,6 +2,8 @@ import React from 'react';
 import SecondaryButton from '../Buttoncomponent/SecondaryButton';
 import { IoMdArrowDown } from 'react-icons/io';
 import { HiArrowNarrowLeft, HiArrowNarrowRight } from 'react-icons/hi';
+import SectionCard from './SectionCard';
+import { FaReact } from 'react-icons/fa';
 
 const FirstSection = () => {
     return (
@@ -18,6 +20,13 @@ const FirstSection = () => {
                 <button className='border border-white rounded-full text-white p-5'><HiArrowNarrowLeft /></button>
                 <button className='border border-white rounded-full text-white p-5'><HiArrowNarrowRight /></button>
             </div>
+
+            {/* section card  */}
+           <div className='flex gap-5'>
+             <SectionCard logo={<FaReact />} header='HTML & CSS' details='Duis aute irure dolor in reprehenderit in voluptate. Ut enim ad minim veniam, quis'></SectionCard>
+             <SectionCard logo={<FaReact />} header='Javascript' details='Duis aute irure dolor in reprehenderit in voluptate. Ut enim ad minim veniam, quis'></SectionCard>
+             <SectionCard logo={<FaReact />} header='Webflow' details='Duis aute irure dolor in reprehenderit in voluptate. Ut enim ad minim veniam, quis'></SectionCard>
+           </div>
             
         </div>
     );
