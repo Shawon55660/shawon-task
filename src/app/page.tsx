@@ -1,4 +1,4 @@
-import Bannar from "@/component/Bannar";
+import Bannar from "@/component/BannarComponent/Bannar";
 
 
 export default function Home() {
