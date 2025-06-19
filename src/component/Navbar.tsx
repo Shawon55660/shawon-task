@@ -1,5 +1,5 @@
 import React from 'react';
-import PrimaryButton from './PrimaryButton';
+import PrimaryButton from './Buttoncomponent/PrimaryButton';
 
 import { TfiArrowRight } from 'react-icons/tfi';
 import Link from 'next/link';
@@ -8,8 +8,8 @@ import Link from 'next/link';
 const Navbar = () => {
     const menu:string[] =['Home','About', 'Profile', 'Blog']
     return (
-        <div>
-           <div className="navbar items-center bg-[#00000003] rounded-b-[30px] max-w-[1410px] mx-auto h-[114px]">
+        <div className=''>
+           <div className="navbar items-center bg-[#0000000] rounded-b-[30px] max-w-[1410px] mx-auto h-[114px]">
   <div className="navbar-start w-[20%] ">
     <div className="dropdown">
       <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">

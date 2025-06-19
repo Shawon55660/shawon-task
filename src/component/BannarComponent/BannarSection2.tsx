@@ -1,13 +1,14 @@
 import React from 'react';
-import PrimaryButton from '../PrimaryButton';
+import PrimaryButton from '../Buttoncomponent/PrimaryButton';
 import { IoCall } from 'react-icons/io5';
 import { TfiLayoutLineSolid } from 'react-icons/tfi';
 import { FaFacebook, FaInstagram, FaTwitter } from 'react-icons/fa';
 
+
 const BannarSection2 = () => {
     return (
         <div>
-            <div className='grid grid-cols-12  '>
+            <div className='grid grid-cols-12 mt-8 '>
 
                 <div className='col-span-3 '>
                     <div className='flex items-center'>
@@ -28,6 +29,7 @@ const BannarSection2 = () => {
                     <p className='w-7/11 leading-7' >Building the worlds best marketing websites for over a decade. Your trusted partner for strategy, design, and dev.</p>
                     <div className='pt-8'>
                         <PrimaryButton logo={<IoCall />} text='Schedule a Call'></PrimaryButton>
+                        
                     </div>
                     </div>
             </div>

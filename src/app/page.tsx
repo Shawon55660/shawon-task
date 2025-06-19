@@ -1,4 +1,5 @@
 import Bannar from "@/component/BannarComponent/Bannar";
+import FirstSection from "@/component/firstSection/FirstSection";
 
 
 export default function Home() {
@@ -6,6 +7,7 @@ export default function Home() {
    
     <div>
       <Bannar></Bannar>
+      <FirstSection></FirstSection>
     </div>
   );
 }

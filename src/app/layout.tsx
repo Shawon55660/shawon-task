@@ -25,11 +25,11 @@ export default function RootLayout({
       <body
       style={{ fontFamily: 'Sporting Grotesque, sans-serif' }}
       >
-        <div className="max-w-[1440px] h-[888px] bg-[url('/bannar.png')] bg-center bg-cover mx-auto">
-          <div>
+        <div className="max-w-[1440px] relative h-[880px] bg-[url('/bannar.png')] bg-center bg-cover mx-auto">
+          <div className="sticky top-0 z-50 backdrop-blur-lg">
         <Navbar></Navbar>
         </div>
-       <div> {children}</div>
+       <div className=""> {children}</div>
         </div>
       </body>
     </html>
