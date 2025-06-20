@@ -4,7 +4,7 @@ import SecondaryButton from '../Buttoncomponent/SecondaryButton';
 
 const SecondSection = () => {
     return (
-    <div className="bg-[url('/bannar.png')]  bg-no-repeat  ">
+    <div className="bg-[url('/bannar.png')] bg-right-top  bg-no-repeat  ">
         <div className='flex justify-end items-center pt-[100px] pb-[30px] w-8/12 mx-auto'>
 
      {/* part 1  */}

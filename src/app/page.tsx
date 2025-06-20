@@ -1,5 +1,6 @@
 import Bannar from "@/component/BannarComponent/Bannar";
 import FirstSection from "@/component/firstSection/FirstSection";
+import ForthSection from "@/component/ForthSection/ForthSection";
 import SecondSection from "@/component/SecondSection/SecondSection";
 import ThirdSection from "@/component/ThirdSection/ThirdSection";
 
@@ -12,6 +13,7 @@ export default function Home() {
       <FirstSection></FirstSection>
       <SecondSection></SecondSection>
       <ThirdSection></ThirdSection>
+      <ForthSection></ForthSection>
     </div>
   );
 }
