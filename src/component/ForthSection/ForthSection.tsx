@@ -9,14 +9,14 @@ import { TfiLayoutLineSolid } from 'react-icons/tfi';
 const ForthSection = () => {
     return (
         <div className="bg-[url('/bannar.png')] bg-left-bottom transform scale-x-[1] ">
-            <div className='grid grid-cols-12 py-12 px-[40px]'>
+            <div className='lg:grid grid-cols-12 py-8 lg:py-12 px-[40px]'>
                 <div className='col-span-8'>
                     <SecondaryButton text='Contact'textColor='text-black' borderColor='border-black'></SecondaryButton>
-                    <div className='flex items-center font-bold text-6xl  py-8 leading-[100px] justify-between'>
+                    <div className='flex items-center font-bold text-3xl lg:text-6xl  lg:py-8 py-4 lg:leading-[100px] leading-[60px] justify-between'>
                     <h1>Interested in  together? <span className='bg-[#000000] text-white rounded-lg px-2'>work</span>  </h1>
 
                 </div>
-                <p className='w-9/12 pr-12 leading-7'>We start every new client interaction with an in-depth discovery call where
+                <p className='lg:w-9/12 pr-12 leading-7'>We start every new client interaction with an in-depth discovery call where
                 we get to know each other</p>
                 <div className='pt-8'>
                         <PrimaryButton logo={<IoCall />} text='Schedule a Call'></PrimaryButton>
@@ -24,7 +24,7 @@ const ForthSection = () => {
                     </div>
                 </div>
 
-                <div className='col-span-4  bg-[#000000] rounded-xl m-4 p-6'>
+                <div className='col-span-4  bg-[#000000] rounded-xl my-4 lg:m-4 p-6'>
                    {/* login from start  */}
                    
                     <form className=''>

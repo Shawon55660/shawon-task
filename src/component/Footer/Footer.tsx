@@ -3,10 +3,10 @@ import React from 'react';
 const Footer = () => {
     return (
         <div className=' bg-[#141414] py-[40px] text-white rounded-md px-[40px]'>
-        <div className='grid grid-cols-12 py-8'>
+        <div className='lg:grid grid-cols-12 py-8'>
         <div className='col-span-6 '> <h2 className='uppercase text-xl font-extrabold text-[#C5FF41]'>devlop.me</h2></div>
         <div className='col-span-6'>
-            <h2 className='text-6xl pb-4'>As You Can</h2>
+            <h2 className='lg:text-5xl text-4xl pt-8 lg:pt-0 lg:pb-4'>As You Can</h2>
             <div className='flex justify-between flex-wrap gap-12 w-11/12 pt-12'>
                 <ul className='text-xs leading-8'>
                     <li className='text-gray-400 pb-6'>Say hello</li>

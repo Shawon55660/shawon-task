@@ -10,9 +10,9 @@ const BannarSection2 = () => {
         <div>
             <div className='grid grid-cols-12 mt-8 '>
 
-                <div className='col-span-3 '>
-                    <div className='flex items-center'>
-                        <p className= 'mr-[-20px] ml-[15px] rotate-[-90deg]'>
+                <div className=' col-span-1 pr-1 lg:col-span-3 '>
+                    <div className='lg:flex items-center'>
+                        <p className= 'lg:mr-[-20px] lg:ml-[15px] rotate-[-90deg]'>
                             @williamrey
                         </p>
                         <ul className='flex-col-reverse pb-8 justify-around   text-2xl'>
@@ -25,8 +25,8 @@ const BannarSection2 = () => {
                     </div>
                    
                 </div>
-                <div className='col-span-9'>
-                    <p className='w-7/11 leading-7' >Building the worlds best marketing websites for over a decade. Your trusted partner for strategy, design, and dev.</p>
+                <div className='col-span-11 lg:col-span-9'>
+                    <p className='w-full md:w-9/12 lg:w-7/11 leading-7' >Building the worlds best marketing websites for over a decade. Your trusted partner for strategy, design, and dev.</p>
                     <div className='pt-8'>
                         <PrimaryButton logo={<IoCall />} text='Schedule a Call'></PrimaryButton>
                         

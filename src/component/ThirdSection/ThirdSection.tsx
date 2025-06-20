@@ -4,13 +4,13 @@ import Card from './Card';
 
 const ThirdSection = () => {
     return (
-        <div className='w-[1440px] bg-[#141414] py-[40px] rounded-md px-[40px]'>
+        <div className=' bg-[#141414] py-[40px] rounded-md px-[40px]'>
 
-            <div className='flex gap-32 pt-12 justify-start items-center'>
+            <div className='lg:flex gap-32 pt-12 justify-start items-center'>
                 <SecondaryButton text='Work Process' borderColor='border-white' textColor='text-white'></SecondaryButton>
-                <h2 className='text-6xl  text-center  text-white'>My Work Process</h2>
+                <h2 className='text-3xl lg:text-6xl pt-8 lg:pt-0  lg:text-center  text-white'>My Work Process</h2>
             </div>
-            <div className='grid grid-cols-2 gap-4'>
+            <div className='lg:grid grid-cols-2 gap-4'>
                 <Card text='We start every new client interaction
 with an in-depth discovery call where
 we get to know each other, discuss
