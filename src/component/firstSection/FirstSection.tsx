@@ -7,7 +7,7 @@ import { FaReact } from 'react-icons/fa';
 
 const FirstSection = () => {
     return (
-        <div className='w-[1440px] bg-[#141414] py-[40px] px-[40px]'>
+        <div className='w-[1440px] bg-[#141414] rounded-md py-[40px] px-[40px]'>
              {/* SecondaryButton is here */}
             <div><SecondaryButton text='Why Choose me'textColor='text-white' borderColor='border-white' ></SecondaryButton></div>
            {/* main content start  */}
