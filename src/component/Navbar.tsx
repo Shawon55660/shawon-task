@@ -8,7 +8,7 @@ import Link from 'next/link';
 const Navbar = () => {
     const menu:string[] =['Home','About', 'Profile', 'Blog']
     return (
-        <div className=''>
+        <div className='sticky top-0 z-50'>
            <div className="navbar items-center bg-[#0000000] rounded-b-[30px] max-w-[1410px] mx-auto h-[114px]">
   <div className="navbar-start w-[20%] ">
     <div className="dropdown">
